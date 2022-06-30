@@ -1,0 +1,117 @@
+
+@import url('https://fonts.googleapis.com/css2? família= Amatic+SC:wght@400;700 &family= Noto+Serif+JP & display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Amatic SC;
+    font-weight: 700;
+    background-color: rgb(215, 176, 247);
+}
+/* cabeçalho */
+h1, h2, p{
+    text-align: center;
+
+}
+#titulo{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Amatic SC;
+    font-weight: 700;
+    color: 000;
+    text-shadow: -2px -2px 0 #9421e0;
+}
+.titulo-sec{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: Amatic SC;
+    font-weight: 400;
+    color: #9421e0;
+}
+/* cards */
+.container{
+    max-width: 1200px;
+    margin: 0;
+    text-align: center;
+}
+.card{
+    display: inline-block;
+    width: 400px;
+    margin: 25px;
+    border: 2px solid #9421e0;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px #534f4f;
+}
+.imagem{
+    height: 400px;
+    background-size: cover;
+}
+.card-1 .imagem{
+    background-image: url(/img/305f68b547c8b43ae7f1dc8fed76af22.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-2 .imagem{
+    background-image: url(/img/tumblr_ec216463000fdc36deb83697cb951e95_f664d7c5_1280.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-3 .imagem{
+    background-image: url(/img/ab52ac77d64210aacf0b8f46fd60d939.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-4 .imagem{
+    background-image: url(/img//c088d9a86428693fa55d58ebf222582c.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-5 .imagem{
+    background-image: url(/img/tumblr_9aecfa6859ecc5f746630da16a201428_8a331c51_540.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-6 .imagem{
+    background-image: url(/img/5196b519bf75f4f6af3f26b0bdb05f0d.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-7 .imagem{
+    background-image: url(/img/tumblr_51b763c6014e4fef68746ccf2ce1a66a_d7514f54_1280.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.card-8 .imagem{
+    background-image: url(/img/d0d15ceac80e4a91a9024827972e6607.jpg);
+    background-position: center;
+    border-radius: 10px 10px 0 0;
+}
+.texto{
+    color: #1e092c;
+    font-family: Amatic SC;
+    font-weight: 400;
+}
+.sim{
+    font-family: Amatic SC;
+    font-weight: 400;
+    color: #9421e0;
+}
+.btn{
+    display: block;
+    background-color: #1e092c;
+    color: #9421e0;
+    margin-top: 20px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    transition: .5s;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+.btn:hover{
+    background-color: white;
+    color: #1e092c;
+    border-color: #1e092c;
+}
+.descrição{
+    padding: 10px;
+}
